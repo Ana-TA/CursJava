@@ -14,5 +14,11 @@ public class Tester {
 		ratePerHour = salariuPeOra;
 	}
 	
+	public Tester(int ratePerHour, int varsta, String nume) {
+		this.ratePerHour = ratePerHour;
+		this.varsta = varsta;
+		this.nume = nume;
+	}
+	
 	//metode
 }
