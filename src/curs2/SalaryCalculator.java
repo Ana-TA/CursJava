@@ -19,9 +19,13 @@ public class SalaryCalculator {
 		System.out.println(tester3.varsta);
 		//System.out.println(tester3.nume);
 		
+		Tester tester4 = new Tester("Ana", "Junior");
+		
 		SalaryCalculator salCalc = new SalaryCalculator();
 		
 		System.out.println("Salariul lui " + tester3.nume + " este " + salCalc.calculateSalary(tester3.ratePerHour));
+		
+		System.out.println(tester4.nume + " este de senioritate " + tester4.senioritate + "!");
 		
 	}
 	

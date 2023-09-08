@@ -6,6 +6,8 @@ public class Tester {
 	int varsta;
 	int ratePerHour = 1;
 	
+	String senioritate;
+	
 	//constructori
 	//constructor default
 	//public Tester() {}
@@ -18,6 +20,11 @@ public class Tester {
 		this.ratePerHour = ratePerHour;
 		this.varsta = varsta;
 		this.nume = nume;
+	}
+	
+	public Tester(String nume, String senioritate) {
+		this.nume = nume;
+		this.senioritate = senioritate;
 	}
 	
 	//metode
