@@ -14,7 +14,7 @@ public class Tema3 {
 			System.out.println("Esti minor!");
 		}
 		else {
-			if ((inputVarsta) >= 18 && (inputVarsta <= 65)) {
+			if (inputVarsta <= 65) {
 				System.out.println("Esti Adult!");
 			}
 			else {
