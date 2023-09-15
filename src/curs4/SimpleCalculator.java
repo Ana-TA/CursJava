@@ -24,7 +24,7 @@ public class SimpleCalculator {
 	
 	private void askTheUSer() {
 		Scanner scan = new Scanner(System.in);
-		System.out.println("Please enter tfirst number:");
+		System.out.println("Please enter first number:");
 		num1 = scan.nextInt();
 		System.out.println("Please enter the operator:");
 		operator = scan.next().charAt(0);
