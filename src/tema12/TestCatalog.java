@@ -19,10 +19,11 @@ public class TestCatalog {
 		int nota = scan.nextInt();
 		
 		if (catalog.findNameInCatalog(nume)) {
-			if (nota < catalog.getNoteForName(nume)) {
+			if (nota <= catalog.getNoteForName(nume)) {
 				System.out.println("Nu ai nevoide de alta nota.");
 			}else {
 				catalog.updateCatalatog(nume, nota, true);
+				System.out.println("Catalogul a fost updatat. Noua nota este: " + nota);
 			}
 		}else {
 			catalog.updateCatalatog(nume, nota, false);
